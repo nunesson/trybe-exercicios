@@ -19,3 +19,9 @@ li:active {
     font-style: italic;
     font-weight: 900;
 }
+
+#motivos {
+    left: 500px;
+    background-color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
