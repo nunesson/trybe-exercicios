@@ -1,0 +1,53 @@
+body {
+    padding: 20px;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-right: 100px;
+
+
+}
+
+#header h1 {
+    border: 2px red solid;
+    text-align: center;
+}
+
+#nav {
+    border: 2px red solid;
+    padding: 20px;
+    text-align: center;
+}
+
+#article {
+    padding: 20px;
+    border: 2px red solid;
+    
+
+}
+
+#barra-lateral {
+    border: 2px red solid;
+    display: inline-block;
+    width: 30%;
+
+}
+
+#section-fatos {
+    border: 2px red solid;
+    width: 60%;
+    display: inline-block;
+    
+
+}
