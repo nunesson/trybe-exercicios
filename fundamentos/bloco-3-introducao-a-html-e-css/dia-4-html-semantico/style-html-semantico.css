@@ -33,21 +33,16 @@ a {
 #article {
     padding: 20px;
     border: 2px red solid;
+    width: 70%;
     
-
 }
 
 #barra-lateral {
     border: 2px red solid;
-    display: inline-block;
-    width: 30%;
-
+    position: absolute;
+    width: 20%;
 }
 
 #section-fatos {
     border: 2px red solid;
-    width: 60%;
-    display: inline-block;
-    
-
 }
