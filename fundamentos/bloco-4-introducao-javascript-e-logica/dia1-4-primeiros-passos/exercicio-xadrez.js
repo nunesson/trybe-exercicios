@@ -1,10 +1,10 @@
-let peca = "REI";
+let peca = "BisPo";
 
-let pecaCorrigida = peca.toLowerCase();
+// let pecaCorrigida = peca.toLowerCase();
 
 // console.log(pecaCorrigida);
 
-switch (pecaCorrigida) {
+switch (peca.toLowerCase()) {
     case "rei":
         console.log("Qualquer direção, uma casa por vez");
         break;
@@ -27,4 +27,7 @@ switch (pecaCorrigida) {
 
     default:
         console.log("Peça inválida")
+}
+if (condicao) {
+    
 }
