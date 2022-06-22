@@ -1,0 +1,5 @@
+let nomes = ["João", "Maria", "Antônio", "Margarida"];
+
+for(let lista of nomes) {
+  console.log(lista);
+}
