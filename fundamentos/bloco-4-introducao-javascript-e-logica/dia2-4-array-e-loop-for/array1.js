@@ -31,8 +31,9 @@
 
 // console.log(menuServices);
 
-let menu = ['Home', 'Serviços', 'Portfólio', 'Links'];
+// let menu = ['Home', 'Serviços', 'Portfólio', 'Links'];
 
-menu.push("Contato");
+// menu.push("Contato");
 
-console.log(menu);
+// console.log(menu);
+
