@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário</title>
+</head>
+
+<body>
+  <h1>FORMULÁRIO</h1>
+  <form action="" method="GET" enctype="multipart/form-data">
+    <label for="nomeCompleto">Nome Completo:
+      <input type="text" name="nome" id="nomeCompleto" placeholder="Digite seu nome" required>
+    </label>
+    <br>
+    <label for="inputEmail">E-mail:
+      <input type="email" name="email" id="inputEmail" placeholder="Digite seu e-mail" required>
+    </label>
+    <br>
+    <label for="">Estado onde você mora:
+      <select name="estado" id="inputEstado">
+        <option value="sp">São Paulo</option>
+        <option value="mg">Minas Gerais</option>
+        <option value="ap">Amapá</option>
+        <option value="rs" selected>Rio Grande do Sul</option>
+      </select>
+    </label>
+    <br>
+    <p>Selecione sua foto:</p>
+    <input type="file" name="foto" id="fotoPerfil">
+    <br>
+    <p>Comidas favoritas:</p>
+    <label for="comida1">
+      <input type="radio" id="comida1" name="comidaFavorita" value="pizza" checked>Pizza
+    </label>
+    <label for="comida2">
+      <input type="radio" id="comida2" name="comidaFavorita" value="sorvete">Sorvete
+    </label>
+    <label for="comida3">
+      <input type="radio" id="comida3" name="comidaFavorita" value="paoDeQueijo">Pão de queijo
+    </label>
+    <label for="comida4">
+      <input type="radio" id="comida4" name="comidaFavorita" value="outro">Outro
+    </label>
+    <br>
+    <p>Escreva algo sobre você:</p>
+    <textarea name="sobreMim" id="textarea1" cols="30" rows="5"></textarea>
+    <br>
+    <p>Digite sua senha:</p>
+    <label for="inputSenha">
+      <input type="password" name="senha" id="inputSenha" required>
+    </label>
+    <br>
+    <label for="checkboxNoticias">
+      <input type="checkbox" name="promocoes" id="checkboxNoticias">Deseja receber notícias e promoções incríveis?
+    </label>
+    <br>
+    <button type="submit">Enviar Formulário</button>
+  </form>
+</body>
+
+</html>
