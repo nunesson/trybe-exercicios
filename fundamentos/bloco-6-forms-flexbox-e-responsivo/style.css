@@ -1,0 +1,31 @@
+#formulario {
+  background-color: rgb(210, 210, 210);
+  padding: 10px;
+  border-bottom: 2px solid grey;
+  border-right: 2px solid grey;
+  width: 500px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.box {
+  border-radius: 5px;
+  border: 2px solid gray;
+}
+
+.linha {
+  padding: 5px;
+}
+
+#button {
+  background-color: burlywood;
+  width: 100px;
+  height: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  border: 1px solid rgb(133, 117, 117);
+  border-radius: 10px;
+}
+
+#button:hover{
+  background-color: rgb(219, 148, 57);
+}
