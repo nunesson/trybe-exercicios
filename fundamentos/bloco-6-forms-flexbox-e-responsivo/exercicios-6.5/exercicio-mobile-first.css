@@ -10,8 +10,8 @@
   box-sizing: inherit;
 }
 
-body {
-
+body p {
+  font-size: 20px;
 }
 
 article {
@@ -19,7 +19,7 @@ article {
 }
 
 h1 {
-
+  font-size: 30px;
 }
 
 h2 {
