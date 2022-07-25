@@ -81,6 +81,6 @@ function smallerName() {
 }
 console.log(smallerName());
 
-const getNamedBook = () => books.find(book => book.name.length === 26).name;
+const getNamedBook = () => books.filter(book => book.genre === 'Terror');
 
 console.log(getNamedBook());
