@@ -6,8 +6,9 @@ const objPeople = [
   { name: 'Vitor', age: 15 },
 ];
 
-const verifyAgeDrive = (arrayOfPeople) => (
-  arrayOfPeople.filter((people) => (people.age >= 18))
+const verifyAgeDrive = (movies) => (
+movies.filter((people) => (
+  people.age >= 18))
 );
 
 console.log(verifyAgeDrive(objPeople));
