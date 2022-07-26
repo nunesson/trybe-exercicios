@@ -13,13 +13,13 @@ const books = [
     author: { name: 'Stephen King', birthYear: 1947 },
     releaseYear: 1986,
   },
-  {
-    id: 4,
-    name: 'Duna',
-    genre: 'Ficção Científica',
-    author: { name: 'Frank Herbert', birthYear: 1920 },
-    releaseYear: 1965,
-  },
+  // {
+  //   id: 4,
+  //   name: 'Duna',
+  //   genre: 'Ficção Científica',
+  //   author: { name: 'Frank Herbert', birthYear: 1920 },
+  //   releaseYear: 1965,
+  // },
   {
     id: 2,
     name: 'O Senhor dos Anéis',
