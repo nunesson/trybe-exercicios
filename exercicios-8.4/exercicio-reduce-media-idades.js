@@ -65,7 +65,9 @@ const expectedResult = 43;
 
 function averageAge(idades) {
   const tamanhoArray = books.length;
-  const somaIdades = idades.reduce((soma, livros) => (soma + livros.releaseYear - livros.author.birthYear),0);
+  const somaIdades = 
+  idades.reduce((soma, livros) => 
+  (soma + livros.releaseYear - livros.author.birthYear),0);
   return somaIdades / tamanhoArray;
 }
 
