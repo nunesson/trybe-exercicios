@@ -5,7 +5,7 @@ const fazerLogin = (email) => ({
   email
 });
 
-const ESTADO_INICIAL = { // como se fosse prevState
+const ESTADO_INICIAL = { // prevState
   login: false,
   email: '',
 };
